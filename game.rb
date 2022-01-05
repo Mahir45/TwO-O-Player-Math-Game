@@ -7,10 +7,7 @@ class Game
     @player2 = 3
   end 
 
-  # def create_players
-  #   player1 = Player.new(1, 3)
-  #   player2 = Player.new(2, 3)
-  # end
+ 
 
   def game_over
     puts "Player 1: #{@player1}/3 lives. Player 2: #{@player2}/3 lives."
